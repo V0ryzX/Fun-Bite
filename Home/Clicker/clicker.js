@@ -1,0 +1,1 @@
+let score=0;let clickSound=new Audio('https://www.myinstants.com/media/sounds/button-click.mp3');function startClicker(){score++;clickSound.currentTime=0;clickSound.play();document.getElementById('score').innerText='Puntuación: '+score;}
